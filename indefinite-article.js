@@ -57,7 +57,7 @@ var indefiniteArticle = function(phrase) {
 
     // Special cases where a word that begins with a vowel should be preceeded by 'a'
     var regexes = [/^e[uw]/, /^onc?e\b/, /^uni([^nmd]|mo)/, /^u[bcfhjkqrst][aeiou]/];
-    for (i in regexes) {
+    for (i = 0; i < regexes.length; i++) {
         if (l_word.match(regexes[i]))
             return "a"
     }
