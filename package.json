@@ -1,6 +1,6 @@
 {
   "name": "indefinite-article",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript function that returns the indefinite articles \"a\" or \"an\" based on a given word or phrase",
   "main": "indefinite-article.js",
   "scripts": {
